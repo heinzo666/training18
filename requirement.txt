@@ -10,4 +10,5 @@ scipy
 ftfy
 gradio==3.50.0
 safetensors
+python-multipart==0.0.12
 
