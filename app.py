@@ -1,7 +1,3 @@
-# First, run these commands in separate cells:
-# !pip install flask-ngrok pyngrok pillow
-# !ngrok authtoken YOUR_NGROK_TOKEN  # Replace with your ngrok token
-# !git clone YOUR_GITHUB_REPO_URL    # Replace with your repo URL
 
 import os
 import json
@@ -18,7 +14,7 @@ run_with_ngrok(app)
 
 # Assuming your GitHub repo is cloned to /content/your-repo-name
 # Replace 'your-repo-name' with your actual repository name
-REPO_PATH = "/content/your-repo-name"  # Update this with your repo name
+REPO_PATH = "/content/pm"  # Update this with your repo name
 
 # Set up paths relative to the repository
 def setup_directories():
